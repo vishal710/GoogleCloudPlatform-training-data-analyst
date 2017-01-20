@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - name: datalab
-      image: gcr.io/cloud-training-demos/datalab-cloudtraining
+      image: gcr.io/cloud-training-demos/datalab-cloudtraining-accelerate
       imagePullPolicy: Always
       ports:
         - containerPort: 8080
